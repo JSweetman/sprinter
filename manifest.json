@@ -3,10 +3,10 @@
 	
 	"name": "Hail an Uber!",
 	"description": "Right click code snippets and run them.",
-	"permissions" : ["contextMenus"],
+	"permissions" : ["contextMenus", "http://localhost/*"],
 	"background" : {
-		"scripts" : ["uber.js"]
-	},	
+		"scripts" : ["sprinter.js"]
+	},
 	"version" : "0.5"
 
 }
