@@ -1,11 +1,11 @@
 {
 	"manifest_version" : 2,
 	
-	"name": "Hail an Uber!",
+	"name": "Right Click to Run Code",
 	"description": "Right click code snippets and run them.",
-	"permissions" : ["contextMenus", "http://localhost/*"],
+	"permissions" : ["contextMenus", "notifications", "http://localhost/*"],
 	"background" : {
-		"scripts" : ["sprinter.js"]
+		"scripts" : ["jquery.js", "sprinter.js"]
 	},
 	"version" : "0.5"
 
